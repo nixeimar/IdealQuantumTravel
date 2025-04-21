@@ -1,4 +1,4 @@
-# Quantum Statevector Simulation (Qiskit)
+# Quantum Statevector Simulation for simulating temporal consistency in the presence of retrocausality and coexisting multiverse configurations (Qiskit)
 
 This is the ideal simulation in a classical machine of a minimal quantum circuit model for simulating temporal consistency in the presence of retrocausality and coexisting multiverse configurations. This project uses Qiskit's statevector simulation to visualize the final quantum state of a 3-qubit circuit. No measurements are used, so the circuit's output is interpreted as a probability distribution over quantum states.
 
