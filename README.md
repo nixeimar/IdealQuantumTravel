@@ -1,10 +1,8 @@
-# Quantum Statevector Simulation for simulating Quantum Ambiguity Resolution in Natural Language (Qiskit)
+# Ideal Quantum Ambiguity Resolution Circuit
 
-This is an ideal quantum circuit that models quantum ambiguity resolution using three qubits, each encoding a specific logical role:
-	Qubit 0 (q_0) — Indicates whether an ambiguous linguistic input is present (1 = ambiguity; 0 = unambiguous).
-	Qubit 1 (q_1) — Indicates whether a disambiguation strategy (e.g., semantic context, grammar rules, statistical inference) has been applied (1 = resolution attempted; 0 = no resolution).
-	Qubit 2 (q_2) — Encodes whether the overall interpretation is logically coherent (1 = consistent; 0 = contradiction detected).
-![image](https://github.com/user-attachments/assets/929d5952-e1bc-42f4-a1c2-91b03a86621e)
+This repository contains the ideal Qiskit implementation of a 3-qubit quantum circuit for enforcing logical consistency in ambiguous natural language inputs.  
+Qubit 0 encodes ambiguity, Qubit 1 models disambiguation strategies, and Qubit 2 acts as a coherence flag.  
+The circuit flips the flag only when ambiguity is present without resolution, enforcing consistency through quantum logic.  
 
 ---
 
