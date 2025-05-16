@@ -1,6 +1,10 @@
-# Quantum Statevector Simulation for simulating temporal consistency in the presence of retrocausality and coexisting multiverse configurations (Qiskit)
+# Quantum Statevector Simulation for simulating Quantum Ambiguity Resolution in Natural Language (Qiskit)
 
-This is the ideal simulation in a classical machine of a minimal quantum circuit model for simulating temporal consistency in the presence of retrocausality and coexisting multiverse configurations. This project uses Qiskit's statevector simulation to visualize the final quantum state of a 3-qubit circuit. No measurements are used, so the circuit's output is interpreted as a probability distribution over quantum states.
+This is an ideal quantum circuit that models quantum ambiguity resolution using three qubits, each encoding a specific logical role:
+	Qubit 0 (q_0) — Indicates whether an ambiguous linguistic input is present (1 = ambiguity; 0 = unambiguous).
+	Qubit 1 (q_1) — Indicates whether a disambiguation strategy (e.g., semantic context, grammar rules, statistical inference) has been applied (1 = resolution attempted; 0 = no resolution).
+	Qubit 2 (q_2) — Encodes whether the overall interpretation is logically coherent (1 = consistent; 0 = contradiction detected).
+![image](https://github.com/user-attachments/assets/929d5952-e1bc-42f4-a1c2-91b03a86621e)
 
 ---
 
